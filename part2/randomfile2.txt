@@ -1,0 +1,9 @@
+instance: boot
+
+attributes: hasSteelToe (boolean), bootColor (string),
+bootSize (integer),
+
+method:
+hasSteelToe = true;
+bootColor = black;
+bootSize = 10;
