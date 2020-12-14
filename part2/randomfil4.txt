@@ -1,0 +1,9 @@
+class: shoe
+attributes: shoeSize (integer), shoeColor (string),
+hasLaces (boolean), shoeVersion(float), dateCreated (datetime)
+methods:
+tie_shoe - ties the shoe if the hasLaces attribute is true.
+place_on_foot - places shoe on foot if the shoeSize value
+is greater than the footSize.
+create_shoe - the manufacture creates the show which
+gives a value to the dateCreated attribute.
