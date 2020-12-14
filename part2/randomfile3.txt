@@ -1,0 +1,11 @@
+instance: bicycle
+
+attributes: numberOfTires (integer), brakeType (string),
+isFullOfAir (boolean)
+
+refill_tire: fills the tire full of air if the IsFullOfAir
+is value is false.
+brake_back_tire: Uses the handbrake to come to a stop if the
+brakeType is the correct value.
+replace_tires: Replaces the tires of the bike depending on the
+value of numberOfTires.

@@ -1,0 +1,13 @@
+class: bike
+
+attributes: isChainConnected (boolean), tireLength (integer),
+bikeColor (string), bikeModel (float)
+
+methods:
+peddle_forward: Propels the bike forawrd if isChainConnected
+is true.
+peddle_backward: Brings the bike to a stop depending on the
+version of the bikeModel. If the bikeModel is not the correct
+version, the method will have no effect.
+change_tire: Replaces the tire with an appropriate tire
+depending on the tireLength value.
